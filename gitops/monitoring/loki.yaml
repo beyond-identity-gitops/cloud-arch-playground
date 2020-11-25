@@ -2,11 +2,14 @@ apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
   name: loki
-  namespace: istio-system
+  namespace: monitoring
 spec:
   releaseName: loki
-  targetNamespace: istio-system
+  targetNamespace: monitoring
   chart:
     repository: https://grafana.github.io/loki/charts
     name: loki-stack
     version: 2.1.0
+  values:
+    grafana:
+      enabled: true
