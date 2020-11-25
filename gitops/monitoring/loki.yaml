@@ -4,6 +4,7 @@ metadata:
   name: loki
   namespace: monitoring
 spec:
+  releaseName: loki
   targetNamespace: monitoring
   chart:
     repository: https://grafana.github.io/loki/charts
