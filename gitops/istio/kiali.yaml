@@ -96,7 +96,7 @@ data:
       custom_dashboards:
         enabled: true
       prometheus:
-        custom_metrics_url: http://prometheus.monitoring:9090
+        custom_metrics_url: http://prometheus.monitoring
     identity:
       cert_file: ""
       private_key_file: ""
