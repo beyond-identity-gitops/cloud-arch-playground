@@ -10,6 +10,3 @@ spec:
     repository: https://grafana.github.io/loki/charts
     name: loki-stack
     version: 2.1.0
-  values:
-    grafana:
-      enabled: true
