@@ -5,8 +5,11 @@ metadata:
   name: istio-default
 spec:
   profile: default
+  addonComponents:
+    kiali:
+      enabled: true
+    tracing:
+      enabled: true
   values:
-    global:
-      tracer:
-        zipkin:
-          address: zipkin:9411
+    kiali:
+      prometheusAddr: http://prometheus-server.monitoring
