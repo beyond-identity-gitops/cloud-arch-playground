@@ -49,7 +49,7 @@ data:
       name: Prometheus
       orgId: 1
       type: prometheus
-      url: http://prometheus-server:9090
+      url: http://prometheus-server
     - access: proxy
       editable: true
       isDefault: false
