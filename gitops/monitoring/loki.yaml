@@ -6,7 +6,7 @@ spec:
   targetNamespace: monitoring
   chart:
     repository: https://grafana.github.io/loki/charts
-    name: loki/loki-stack
+    name: loki-stack
     version: 2.1.0
   values:
     grafana:
